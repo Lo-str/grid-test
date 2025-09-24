@@ -11,7 +11,7 @@ body {
     color: black;
     font-weight: bold;
 }
-
+/* Main grid container */
 .grid {
     border: 2px solid rgb(93, 0, 255);
     display: grid;
@@ -23,6 +23,7 @@ body {
     gap: 20px;
 }
 
+/* Content grid container */
 .grid__container {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -33,6 +34,7 @@ body {
     width: 100%;
 }
 
+/* Grid items */
 .grid__item-1 {
     background-color: #007F5F;
     grid-area: 1 / 1 / 3 / 2 ;
@@ -88,6 +90,7 @@ body {
     grid-area: 5 / 5 / 7 / 6;
 }
 
+/* Bottom area and text */
 .grid__item-12 {
     background-color: #9BC1BC;
     grid-area: 2 / 1;
