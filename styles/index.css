@@ -13,7 +13,6 @@ body {
 }
 /* Main grid container */
 .grid {
-    border: 2px solid rgb(93, 0, 255);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 6fr 1fr;
